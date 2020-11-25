@@ -3,3 +3,26 @@ REMOVENDO ARQUIVOS
 #git commit -a -m "Comment"; 
 #git push  //send commit to server 
 #git pull //get commit from server 
+
+
+
+VERIFICANDO O STATUS DO PROJETO 
+#git status 
+
+VERIFICANDO O HISTORICO DAS ATUALIZAÇÕES 
+#git log //
+
+MOVENDO ARQUIVOS 
+1)Cria se um arquivo css fora da pasta correta
+2)Adiciona o arquivo, faz o commit e envia o arquivo para o servidor 
+3) Em consequencia o arquivo ficou na pasta indevida - Teria que ser a pasta css 
+4) Move se o arquivo para a pasta correta commita e realiza o push para o servidor 
+5) Esta soluçao ser tanto para mover um arquivo de uma pasta pra outra, como também  para renomear o arquivo 
+#git add . 
+#git commit -a -m "Adicionado arquivo css"
+#git push 
+#git mv rodape.css css\rodapes.css 
+#git commit -a -m "Movendo o arquivo para a pasta correta";
+$git push 
+#cd ..\repo01
+#git pull //O arquivo retorna dor servidor ja na pasta correta. 
