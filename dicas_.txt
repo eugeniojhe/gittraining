@@ -1,0 +1,5 @@
+REMOVENDO ARQUIVOS 
+#git rm file_name; 
+#git commit -a -m "Comment"; 
+#git push  //send commit to server 
+#git pull //get commit from server 
