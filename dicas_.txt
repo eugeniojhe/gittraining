@@ -36,4 +36,10 @@ de modified, seja desconsiderado:
 #git checkout nome_do_arquivo 
 #git status // O status modified do arquivo desaparece
 
+10) Ignorando arquivos e diretórios de um projeto 
+a) Cria se o arquivo .gitignore relaciona os arquivos e diretórios que não devem ser enviados para
+o servidor
+# git add . 
+# git push 
+
 
