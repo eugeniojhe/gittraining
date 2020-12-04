@@ -24,5 +24,16 @@ MOVENDO ARQUIVOS
 #git mv rodape.css css\rodapes.css 
 #git commit -a -m "Movendo o arquivo para a pasta correta";
 $git push 
-#cd ..\repo01
+#cd ..\repo01 - //Ou clica com o botão direito sobre a pasta repo01 - Seleciona   { open in integrated terminak}
 #git pull //O arquivo retorna dor servidor ja na pasta correta. 
+6) Para renomeação de arquivos, pode ser usado o mesmo critério de mover os arquivos de uma pasta para outra 
+7) Desfazendo alterações
+8) Após editar um determinado arquivo , 
+# git status 
+9 o git altera seu status para modified: nome_arquivo. Se manu-
+almente defazer as alterações o arquivo ira continuar com modified: nome_arquivo. Para que o status 
+de modified, seja desconsiderado:
+#git checkout nome_do_arquivo 
+#git status // O status modified do arquivo desaparece
+
+
