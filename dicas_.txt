@@ -44,3 +44,14 @@ o servidor
 # git push 
 
 
+11) Clonando um branch  - Copia o link do github.com, na linha de comando do git digita
+# git clone link_que_foi_copiando_do_git_hub //Referente ao repósitório a ser clonado
+# git branch //Mostra o branch do repositório git, bem como a branch atual em cor verde
+
+11)Criando um novo branch no git 
+# git branch novo_branch //Cria um novo branch com a mesma strutura do branch atual
+
+
+
+
+
