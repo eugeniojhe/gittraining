@@ -48,8 +48,18 @@ o servidor
 # git clone link_que_foi_copiando_do_git_hub //Referente ao repósitório a ser clonado
 # git branch //Mostra o branch do repositório git, bem como a branch atual em cor verde
 
-11)Criando um novo branch no git 
+12)Criando um novo branch no git - Quando for cria um novo branch, salvo ressalvas, deve se criar
+com base no branch master que é branch da versão atual. 
 # git branch novo_branch //Cria um novo branch com a mesma strutura do branch atual
+
+13) Excluindo um branch //A principio não se usa excluir branchs, por um questão de histórico 
+    so sitema 
+# git branch -d nome_do_branch 
+
+14) Mudando de branch //As alterções não comitadas vao para o novo branch e são 
+porém serão excluidas do branch origem 
+#git checkout nome_no_branch_destino. 
+#git checkout -b nome_do_novo_branch //Cria se o novo branch e muda para ele                    
 
 
 
