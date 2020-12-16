@@ -70,6 +70,11 @@ porém serão excluidas do branch origem
     servem com históricos do sistema. 
     git branch -d nome_branch 
 
+17) Fazendo o merge de branch 
+    #git merge -nome_do_branch //Faz o merge - realiza a união 
+                                 do branch nome_do_branch com 
+                                 o branch atual 
+
     
 
 
