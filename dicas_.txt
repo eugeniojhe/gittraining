@@ -80,6 +80,10 @@ porém serão excluidas do branch origem
     mantenha se atualizado com a equipe. 
 18) Desfazendo as alterações de um determinado branch 
  #git stash 
+ #git stash //Joga as alterações para um stash - lixo 
+#git stash list //Lista as stashs 
+#git stash apply nr_stash //Recupara a stash de nr tal 
+#git stash show -p 2 //Mostra as alterações realizadas na stash 2
 
     
 
