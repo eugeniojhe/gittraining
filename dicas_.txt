@@ -74,6 +74,12 @@ porém serão excluidas do branch origem
     #git merge -nome_do_branch //Faz o merge - realiza a união 
                                  do branch nome_do_branch com 
                                  o branch atual 
+    Quando se esta trabalhando em equipe, antes da parte 
+    de seu projeto ser aprovada para o merge com  a mestre, é bomo se
+    sempre estar fazendo um merge da master para que o seu projeto
+    mantenha se atualizado com a equipe. 
+18) Desfazendo as alterações de um determinado branch 
+ #git stash 
 
     
 
