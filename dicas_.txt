@@ -87,6 +87,7 @@ porém serão excluidas do branch origem
 
 
 #Testando o stash
+#testando o stash 02 - Após o commit da alteração acima. 
 
     
 
