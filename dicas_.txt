@@ -89,8 +89,11 @@ porém serão excluidas do branch origem
 #git stash drop nome //Limpa uma determinada stash 
 
 
-#Testando o stash
-#testando o stash 02 - Após o commit da alteração acima. 
+#git tag -a  Versao -m "Comentário" //Cria estágios do desenvolvimento 
+#git show nome_tag //Mostra 
+#git checkout nome_tag //Muda de tag 
+
+ o stash 02 - Após o commit da alteração acima. 
 
     
 
