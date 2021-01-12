@@ -91,7 +91,13 @@ porém serão excluidas do branch origem
 
 #git tag -a  Versao -m "Comentário" //Cria estágios do desenvolvimento 
 #git show nome_tag //Mostra 
-#git checkout nome_tag //Muda de tag 
+#git checkout nome_tag //Muda de tag // Este comando e bem interessante 
+                                    // pois retorna o nosso projeto para 
+                                    // um determinado estágio de 
+                                    //desenvolvimento 
+
+#git push origin <nome_tag> // Envia um determinada tag para o repositório
+#git push origin --tags //Envia todas as tags para o repositório 
 
  o stash 02 - Após o commit da alteração acima. 
 
