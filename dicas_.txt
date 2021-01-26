@@ -4,6 +4,20 @@ REMOVENDO ARQUIVOS
 #git push  //send commit to server 
 #git pull //get commit from server 
 
+Encontrando Branches 
+a) Criando branches 
+b) git checkout -b "funcionalidade_a"; 
+c) Realiza alterações neste branch, 
+d) Realiza o commit, 
+e) Git push -> Como  com branch "funcionalidade_b" ainda não esta no 
+servidor sera reportada a mensagem:
+fatal: The current branch funcionalidade_a has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin funcionalidade_a
+f) Após o comando acima o branch esta ligado o servidor. 
+
+A
+
 
 
 VERIFICANDO O STATUS DO PROJETO 
