@@ -112,7 +112,15 @@ porém serão excluidas do branch origem
 
 #git push origin <nome_tag> // Envia um determinada tag para o repositório
 #git tag //Lista as tags
-#git push origin --tags //Envia todas as tags para o repositório 
+#git push origin --tags //Envia todas as tags para o repositório
+
+Muda para o 1_rep 
+Git checkout funcionalidade_a 
+Sera reportado que a funcionalide “não tem nenhuma correspondência” 
+Git fetch –a // Mostra e recupera todos os branchs remotos.
+
+
+
 
  o stash 02 - Após o commit da alteração acima. 
 
