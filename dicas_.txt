@@ -97,6 +97,7 @@ porém serão excluidas do branch origem
                                     //desenvolvimento 
 
 #git push origin <nome_tag> // Envia um determinada tag para o repositório
+#git tag //Lista as tags
 #git push origin --tags //Envia todas as tags para o repositório 
 
  o stash 02 - Após o commit da alteração acima. 
