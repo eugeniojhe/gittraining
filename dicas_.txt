@@ -112,7 +112,34 @@ porém serão excluidas do branch origem
 
 #git push origin <nome_tag> // Envia um determinada tag para o repositório
 #git tag //Lista as tags
-#git push origin --tags //Envia todas as tags para o repositório 
+#git push origin --tags //Envia todas as tags para o repositório
+
+Muda para o 1_rep
+#git checkout -b 'funcionalidade_a"
+
+)Desenvolvedor a 
+#Git checkout funcionalidade_a //Cria um branch com algumas funcionalidades
+#Emplementa as funciolidades 
+#git commit -a -m "Comentario",
+#gitg push //Sera reportado que funcionalidade a não tem upstream no branch
+         //remoto 
+#git push --set-upstream origin funcionalidade_a //Desta forma a branch sera
+       //Enviado para o repositório remoto. 
+#Outro desenvolvedor tenta mudar para o branch funcionalidade_a 
+#git checkout funcionalidada_a //funcionalidade_a did not match any files 
+#git fetch -a //Desenvolvedor b consegui trazer toda os branchs 
+             //no repositorio remoto que ainda não foi mapeado 
+             // para a sua maquina
+#git checkout funcionalidade_a 
+->Desenvolvor a realiza as alterações a envia  para a maquina remota
+#git push 
+->Desta forma como a funcionalidade a é do desenvolvedor a, o mesmo necessitara 
+dar somente o pull para a sua maquina local.  
+
+Sera reportado que a funcionalide “não tem nenhuma correspondência” 
+Git fetch –a // Mostra e recupera todos os branchs remotos. 
+
+
 
  o stash 02 - Após o commit da alteração acima. 
 
