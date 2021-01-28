@@ -99,7 +99,7 @@ porém serão excluidas do branch origem
 #git stash apply nr_stash //Recupara a stash de nr tal 
 #git stash show -p 2 //Mostra as alterações realizadas na stash 2
 
-#git stash clear // Limpa todas as stashes 
+cd #git stash clear // Limpa todas as stashes 
 #git stash drop nome //Limpa uma determinada stash 
 
 
