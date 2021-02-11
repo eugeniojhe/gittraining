@@ -161,7 +161,11 @@ Git fetch –a // Mostra e recupera todos os branchs remotos.
 #git show;
 
 21) MONSTRANDO AS DIFERENÇAS ENTRA BRANCHS 
-#git diff //Mostra a diferença do branch atual com a branch remoto 
+#git diff //Mostra a diferença do branch atual com a master 
+#git diff arq_a arq_b //Mostra diferença entre os arquivos.
+
+22) MOSTRANDO OS LOGS RESUMIDOS DO REPOSITÓRIOS  
+#gitshortlog
     
     
     
