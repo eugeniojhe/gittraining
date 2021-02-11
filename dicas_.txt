@@ -146,11 +146,17 @@ Git fetch –a // Mostra e recupera todos os branchs remotos.
     #git remote -v //A origin já não aparece mais 
     #git remote add origin  url da origem 
 
-19) git submodule 
+19) git submodule - Maneira de possuir dois ou mais projetos em um só
+    repositório 
     a)cria um repositório no servidor remoto, 
     b)clona o repositório como modúlo ele para a maquina do usuário.
         #git submodule add caminho_remoto,  
-        #git submodule  
+        #git submodule  //Visualiza os submodulos do repositório 
+        #cd submodule //Funcion como se fosse outro repositório 
+        b.1)os comandos push e pull funcionan normalmente como se fossem em um projeto normalmente
+        #git pull //Faz o pull do repositorio submodule //No servidor remoto é repositório normalmente
+        #git push --recurse-submodules=on-demand 
+    
     
     
 
