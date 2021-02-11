@@ -156,6 +156,12 @@ Git fetch –a // Mostra e recupera todos os branchs remotos.
         b.1)os comandos push e pull funcionan normalmente como se fossem em um projeto normalmente
         #git pull //Faz o pull do repositorio submodule //No servidor remoto é repositório normalmente
         #git push --recurse-submodules=on-demand 
+
+20 - MOSTRANDO AS ALTERAÇOES OCORRIDAS EM UM BRANCH   
+#git show;
+
+21) MONSTRANDO AS DIFERENÇAS ENTRA BRANCHS 
+#git diff //Mostra a diferença do branch atual com a branch remoto 
     
     
     
