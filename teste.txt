@@ -1,4 +1,5 @@
 Testando  repo 12
 
 a 
+Alterando arquivo teste.txt in branch funcionalidade_a do eugeniojhe/gittrainign 
 b 
